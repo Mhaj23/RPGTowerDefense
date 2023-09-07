@@ -37,7 +37,6 @@
     {"id":{"name":"TerrainTemp","path":"sprites/TerrainTemp/TerrainTemp.yy",},},
     {"id":{"name":"Path1","path":"paths/Path1/Path1.yy",},},
     {"id":{"name":"obj_Arrow","path":"objects/obj_Arrow/obj_Arrow.yy",},},
-    {"id":{"name":"obj_GitTutorial","path":"objects/obj_GitTutorial/obj_GitTutorial.yy",},},
     {"id":{"name":"TileSetTest","path":"tilesets/TileSetTest/TileSetTest.yy",},},
     {"id":{"name":"RedKeep","path":"sprites/RedKeep/RedKeep.yy",},},
     {"id":{"name":"obj_RedKeep","path":"objects/obj_RedKeep/obj_RedKeep.yy",},},

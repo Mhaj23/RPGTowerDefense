@@ -18,7 +18,6 @@
   ],
   "ResourceOrderSettings": [
     {"name":"obj_Arrow","order":1,"path":"objects/obj_Arrow/obj_Arrow.yy",},
-    {"name":"obj_GitTutorial","order":3,"path":"objects/obj_GitTutorial/obj_GitTutorial.yy",},
     {"name":"RedKeep","order":3,"path":"sprites/RedKeep/RedKeep.yy",},
     {"name":"obj_RedKeep","order":2,"path":"objects/obj_RedKeep/obj_RedKeep.yy",},
     {"name":"WarriorTemplateSprite","order":1,"path":"sprites/WarriorTemplateSprite/WarriorTemplateSprite.yy",},
