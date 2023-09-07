@@ -1,5 +1,5 @@
 // obj_warrior Create Event
-event_inherited();
+
 show_debug_message("Warrior's health after inherited: " + string(health));
 health = 300;
 show_debug_message("Warrior's health after manual set: " + string(health));

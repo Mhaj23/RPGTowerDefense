@@ -2,3 +2,4 @@
 damage = 20;
 speed = 5;
 has_collided = false;  // Add this line
+

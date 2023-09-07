@@ -40,6 +40,8 @@
     {"id":{"name":"Path1","path":"paths/Path1/Path1.yy",},},
     {"id":{"name":"obj_arrow","path":"objects/obj_arrow/obj_arrow.yy",},},
     {"id":{"name":"TileSetTest","path":"tilesets/TileSetTest/TileSetTest.yy",},},
+    {"id":{"name":"obj_round_bullet","path":"objects/obj_round_bullet/obj_round_bullet.yy",},},
+    {"id":{"name":"spr_round_bullet","path":"sprites/spr_round_bullet/spr_round_bullet.yy",},},
     {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"id":{"name":"spr_arrow_tower","path":"sprites/spr_arrow_tower/spr_arrow_tower.yy",},},
     {"id":{"name":"obj_arrow_tower","path":"objects/obj_arrow_tower/obj_arrow_tower.yy",},},
