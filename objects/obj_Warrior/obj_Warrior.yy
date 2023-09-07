@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Warrior",
+  "name": "obj_warrior",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
@@ -32,8 +32,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "WarriorTemplateSprite",
-    "path": "sprites/WarriorTemplateSprite/WarriorTemplateSprite.yy",
+    "name": "spr_warrior_idle",
+    "path": "sprites/spr_warrior_idle/spr_warrior_idle.yy",
   },
   "spriteMaskId": null,
   "visible": true,
