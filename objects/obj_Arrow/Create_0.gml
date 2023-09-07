@@ -1,5 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
-damage = 50;
-speed = 5;  // Adjust this value as neededl
+// Create Event for obj_arrow
+damage = 20;
+speed = 5;
+has_collided = false;  // Add this line
 

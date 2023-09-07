@@ -1,16 +1,31 @@
-// Draw the enemy sprite (assuming you have one)
-draw_self();
+// Draw the sprite
+draw_sprite(sprite_index, image_index, x, y);
 
-// Draw health bar above the enemy
-var bar_width = 50;
-var bar_height = 5;
-var bar_x = x - bar_width/2;
-var bar_y = y - sprite_height/2 - 10;  // 10 units above the enemy sprite
+// Calculate the health percentage
+var health_percentage = (health / max_health) * 100;
 
-// Draw background of the health bar (e.g., in red)
-draw_rectangle(bar_x, bar_y, bar_x + bar_width, bar_y + bar_height, false);
-draw_set_colour(c_green);
-// Draw current health (e.g., in green)
-var health_percentage = health / 100;  // Assuming 100 is max health
-show_debug_message("Warrior Health --- " + string(health));
-draw_rectangle(bar_x, bar_y, bar_x + bar_width * health_percentage, bar_y + bar_height, false);
+// Determine the color of the health bar
+var health_color;
+if (health_percentage > 50) {
+    health_color = c_green;
+} else if (health_percentage > 35) {
+    health_color = c_yellow;
+} else {
+    health_color = c_red;
+}
+
+// Draw the health bar
+draw_healthbar(x-25, y-50, x+25, y-40, health_percentage, health_color, c_black, c_black, 1, false, false);
+
+// Draw the health text
+draw_set_color(c_white); // Set the text color to white
+draw_text(x, y-60, string(health)); // Draw the current health as text
+
+
+// The parameters are as follows:
+// x1, y1: The top-left corner of the health bar
+// x2, y2: The bottom-right corner of the health bar
+// amount: The percentage of health (0 to 100)
+// backcol, mincol, maxcol: The background, minimum, and maximum colors
+// border: Width of the border (use 0 for no border)
+// showback, showborder: Whether to display background and border (true/false)
